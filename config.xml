@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- B.a.I. PLAYER v0.1 ARCHIVO DE CONFIGURACION -->
+<config>
+  <connection>
+    <connect>false</connect>
+    <irc_server>flashirc.geekshed.net</irc_server>
+    <irc_port>6667</irc_port>
+    <irc_channel>#CHANNEL</irc_channel>
+  </connection>
+  <scroller>
+    <scroll_start_x>515</scroll_start_x>
+    <scroll_length>4</scroll_length>
+    <scroll_compensation>0.001</scroll_compensation>
+    <scroll_separation_x>50</scroll_separation_x>
+  </scroller>
+  <misc>
+    <chatbox_limit>200</chatbox_limit>
+    <flood_time>1000</flood_time>
+    <viewer_reload_time>5000</viewer_reload_time>
+  </misc>
+</config>

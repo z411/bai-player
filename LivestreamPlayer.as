@@ -42,14 +42,14 @@
 		public var _showFullscreenButton = false;
 		public var _showSpinner = true;
 		public var _spinnerSize;
-		public var _devKey = "f7ZYU5KtUfjGXVP8_KWA43YlsXC2ByPwSeP1CVtcH4ZlJE8TbOSU1te47sBuIp-7hTPlHDMWdTP5sdWxANEQ4mvgwmv0A7CvGT8abYyZO0sBSGs4D2Rl1f3mYmnLYiXE";
+		public var _devKey = "KRtLfIN-QAp6QP-xq_NjOgKCB7a8C88C_1ii0H_wyS2nacWmU_8RqWY0E6ckupdJRZacjkeUb2Q-5Zo3maFhk608pUDXFNdLznD7SVyUVTcfCWsbZ5bdsEPDyBevnEX9";
 		public var _autoLoad = true;
 		public var _loadDelay = 0;
 		public var _width = 512;
 		public var _height = 384;
 		
 		public var _isAutoPlay:Boolean = true;
-		public var _channel:String = "CANAL";		
+		public var _channel:String = "baiuhf";		
 
 		public function LivestreamPlayer():void
 		{

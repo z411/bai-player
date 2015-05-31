@@ -187,6 +187,7 @@
 			//connect = Boolean(xmlData.connection.connect);
 			trace(connect);
 			//ircServer = xmlData.connection.irc_server;
+			ircServer = "flashirc.geekshed.net";
 			trace(ircServer);
 			ircPort = Number(xmlData.connection.irc_port);
 			trace(ircPort);
@@ -464,7 +465,7 @@
 		}
 		function onClosed(e:Event) {
 			trace("Connection closed.");
-			statusText.text = "Conexión al chat cerrada! Por favor presiona F5 (esto no debería suceder)";
+			statusText.text = "¡Conexión al chat cerrada! Por favor presiona F5 (esto no debería suceder)";
 			chatDisable("Error de conexión");
 		}
 		function sockGet(e) {
@@ -586,14 +587,14 @@
 		}
 		function resizeHandler(e:Event):void {
 			if(stage.stageWidth >= 790 && stage.stageHeight >= 365) {
-				chatboxList.x = stage.stageWidth - 293;
-				  chatboxList.height = stage.stageHeight - 92;
-				  chatDisabledMask.x = stage.stageWidth - 293;
-				  chatDisabledMask.height = stage.stageHeight - 92;
+				chatboxList.x = stage.stageWidth - 297;
+				  chatboxList.height = stage.stageHeight - 81;
+				  chatDisabledMask.x = stage.stageWidth - 297;
+				  chatDisabledMask.height = stage.stageHeight - 81.5;
 				  chatError.x = stage.stageWidth - 297;
 				  chatError.y = stage.stageHeight - 292;
 				  backMaskR.x = stage.stageWidth - 299;
-				  backMaskR.height = stage.stageHeight - 80;
+				  backMaskR.height = stage.stageHeight - 81;
 				  backMaskD.y = stage.stageHeight - 83;
 				  backMaskD.width = stage.stageWidth + 2;
 				  bailog.x = stage.stageWidth - 111;
